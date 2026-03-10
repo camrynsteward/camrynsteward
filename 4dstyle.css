@@ -1,24 +1,54 @@
-div.imageleft {
-    float: left;
-    clear: all;
-    text-align: left;
-    font-size: 14px;
-    font-style: italic;
-}
-
-div.imageright {
-    float: right;
-    clear: all;
-    text-align: right;
-    font-size: 14px;
-    font-style: italic;
-}
-
-img {
-    padding: 15px;
-    border: none;
+body {
+  font-family: "Times New Roman", Times, serif;
+  color: #222;
+  line-height: 1.35;
+  padding: 24px 28px; 
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
+  font-weight: 700;
+  margin: 8px 0 28px;
 }
+
+.caption {
+  font-size: 14px;
+  font-style: italic;
+  margin: 8px 0 10px;
+}
+
+.imageleft {
+  float: left;
+  clear: left;
+  text-align: left;
+  max-width: 520px; 
+}
+
+.imageright {
+  float: right;
+  clear: right;
+  text-align: right;
+  max-width: 360px; 
+}
+
+.imageleft img,
+.imageright img {
+  padding: 15px;
+  border: none;
+  display: inline-block;
+}
+
+.caption.right {
+  text-align: right;
+}
+
+.footer-text {
+  clear: both;       
+  margin-top: 28px;
+}
+.footer-text p {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center; 
+}
+
