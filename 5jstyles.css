@@ -1,45 +1,40 @@
 body {
-    position: relative;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .color-block {
-    position: absolute;
-    border: 5px solid black;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 6px;
-}
-#div2 {
-    background-color: green;
-    width: 330px;
-    height: 120px;
-    top: 50px;
-    left: 60px;
-    z-index: 3;
-}
-#div3 {
-    background-color: blue;
-    width: 360px;
-    height: 140px;
-    top: 80px;
-    left: 100px;
-    z-index: 2;
+  position: absolute;
+  width: 260px;
+  height: 110px;
+  border: 5px solid black;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  line-height: 110px;
 }
 #div1 {
-    background-color: red;
-    width: 300px;
-    height: 100px;
-    top: 20px;
-    left: 20px;
-    z-index: 4;
+  background-color: red;
+  top: 40px;
+  left: 60px;
+  z-index: 4;
+}
+#div2 {
+  background-color: green;
+  top: 80px;
+  left: 120px;
+  z-index: 3;
+}
+#div3 {
+  background-color: blue;
+  top: 120px;
+  left: 180px;
+  z-index: 2;
 }
 #div4 {
-    background-color: yellow;
-    width: 420px;
-    height: 180px;
-    top: 110px;
-    left: 140px;
-    z-index: 1;
+  background-color: yellow;
+  top: 160px;
+  left: 240px;
+  z-index: 1;
 }
 
 
