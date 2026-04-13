@@ -1,0 +1,33 @@
+.color-block {
+    display: inline-block;
+    height: 100px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    padding: 6px 0 0 6px; 
+    vertical-align: top;
+}
+
+#div1 {
+    background-color: red;
+    width: 260px;
+    border: 5px solid black;
+}
+
+#div2 {
+    background-color: green;
+    width: 290px;
+    border: 5px solid yellow;
+}
+
+#div3 {
+    background-color: blue;
+    width: 300px;
+    border: 5px solid purple;
+}
+
+#div4 {
+    background-color: purple;
+    width: 280px;
+    border: 5px solid gray;
+}
