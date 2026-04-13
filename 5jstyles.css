@@ -15,21 +15,21 @@ body {
   background-color: green;
   top: 70px;
   left: 130px;
-  z-index: 3;
+  z-index: 1;
 }
 
 #div1 {
   background-color: red;
   top: 40px;
   left: 60px;
-  z-index: 4;
+  z-index: 2;
 }
 
 #div3 {
   background-color: blue;
   top: 100px;
   left: 180px;
-  z-index: 2;
+  z-index: 3;
 }
 
 #div4 {
@@ -37,7 +37,7 @@ body {
   width: 300px;
   top: 130px;
   left: 220px;
-  z-index: 1;
+  z-index: 4;
 }
 
 
