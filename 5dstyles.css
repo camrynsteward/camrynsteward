@@ -12,19 +12,19 @@
 #div1 {
   background: #ff0000;
   top: 0;
-  left: 40px;
+  left: 0px;
 }
 
 #div2 {
   background: #008000;
   top: 205px;
-  right: 100px;
+  right: 10px 0px 0px 15px;
 }
 
 #div3 {
   background: #0000ff;
   top: 410px;
-  left: 100px;
+  left: 10px 0px 0px 15px;
 }
 
 #div4 {
