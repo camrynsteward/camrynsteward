@@ -11,33 +11,33 @@ body {
 }
 #div1 {
     background-color: red;
-    width: 300px;
-    height: 100px;
+    width: 280px;
+    height: 90px;
     top: 20px;
-    left: -20px;
+    left: 10px;
     z-index: 1;
 }
 #div2 {
     background-color: green;
     width: 320px;
-    height: 120px;
-    top: 50px;
-    left: 40px;
+    height: 110px;
+    top: 45px;
+    left: 50px;
     z-index: 2;
 }
 #div3 {
     background-color: blue;
     width: 300px;
-    height: 110px;
-    top: 80px;
+    height: 105px;
+    top: 75px;
     left: 90px;
     z-index: 3;
 }
 #div4 {
     background-color: yellow;
-    width: 340px;
+    width: 360px;
     height: 130px;
-    top: 105px;
-    left: 130px;
+    top: 100px;
+    left: 125px;
     z-index: 4;
 }
