@@ -1,4 +1,4 @@
-div{
+div {
   width: 250px;
   height: 90px;
   border: 5px solid black;
@@ -7,15 +7,15 @@ div{
   font-weight: bold;
   line-height: 80px;
 }
-#div1 {
+DIV #1 {
   background-color: red;
 }
-#div2 {
+DIV #2 {
   background-color: green;
 }
-#div3 {
+DIV #2 {
   background-color: blue;
 }
-#div4 {
+DIV #4 {
   background-color: yellow;
 }
