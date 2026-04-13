@@ -19,25 +19,25 @@ body {
 }
 #div2 {
     background-color: green;
-    width: 280px;
-    height: 100px;
-    top: 55px;
-    left: 70px;
+    width: 300px;
+    height: 110px;
+    top: 45px;
+    left: 45px;
     z-index: 2;
 }
 #div3 {
     background-color: blue;
-    width: 300px;
-    height: 110px;
-    top: 90px; 
-    left: 120px;
+    width: 340px;
+    height: 130px;
+    top: 70px;
+    left: 70px;
     z-index: 3;
 }
 #div4 {
     background-color: yellow;
-    width: 340px;
-    height: 130px;
-    top: 125px;
-    left: 170px;
+    width: 420px;
+    height: 180px;
+    top: 95px;
+    left: 95px;
     z-index: 4;
 }
