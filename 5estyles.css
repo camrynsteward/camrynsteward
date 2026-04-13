@@ -1,35 +1,35 @@
 .color-block {
-  position: absolute;
-  width: 560px;
-  height: 165px;
-  border: 10px solid black;
-  font-size: 28px;
-  font-weight: bold;
-  text-align: center;
-  line-height: 165px;
-  font-family: "Times New Roman", serif;
+    width: 250px;
+    height: 100px;
+    border: 5px solid black;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 5px;
+    position: absolute;
 }
 
 #div1 {
-  background: red;
-  top: 0px;
+    background-color: red;
+    left: 20px;
+    top: 20px;
 }
 
 #div2 {
-  background: green;
-  top: 200px;
-  left: 60px;
+    background-color: green;
+    left: 60px;   /* indentation */
+    top: 140px;
 }
 
 #div3 {
-  background: blue;
-  top: 400px;
-  left: 60px;
+    background-color: blue;
+    left: 60px;   
+    top: 260px;
 }
 
 #div4 {
-  background: yellow;
-  top: 400px;
-  left: 650px;
+    background-color: yellow;
+    left: 330px;
+    top: 360px;
 }
 
