@@ -1,3 +1,10 @@
+body {
+  margin: 30px;
+  background: white;
+  font-family: "Times New Roman", serif;
+  position: relative;
+}
+
 .color-block {
   position: absolute;
   width: 560px;
@@ -8,28 +15,31 @@
   text-align: center;
   line-height: 165px;
 }
+
 #div1 {
-  background: red;
-  top: 0;
+  background-color: red;
+  top: 0px;
   left: 30px;
 }
 
 #div2 {
-  background: green;
-  top: 200px;
+  background-color: green;
+  top: 205px;
   left: 30px;
 }
 
 #div3 {
-  background: blue;
-  top: 400px;
+  background-color: blue;
+  top: 410px;
   left: 30px;
 }
 
 #div4 {
-  background: yellow;
-  top: 600px;
-  left: 90px;
-  height: 220px;
-  line-height: 220px;
+  background-color: yellow;
+  width: 560px;
+  height: 240px;           
+  line-height: 240px;
+  top: 585px;              
+  left: 60px;              
 }
+``
