@@ -11,7 +11,7 @@
 
 #div1 {
   background-color: red;
-  top: 0px;
+  top: 0;
   left: 30px;
 }
 
@@ -30,9 +30,8 @@
 #div4 {
   background-color: yellow;
   width: 560px;
-  height: 240px;           
-  line-height: 240px;
-  top: 585px;              
-  left: 60px;              
+  height: 260px;
+  line-height: 260px;
+  top: 615px;
+  left: 30px;
 }
-``
