@@ -1,37 +1,42 @@
 body {
   margin: 20px;
-  background: #ffffff;
+  padding: 0;
+  background: white;
   position: relative;
   font-family: "Times New Roman", serif;
 }
+
 .color-block {
   position: absolute;
-  width: 520px;
-  height: 140px;
+  width: 480px;
+  height: 135px;
   border: 8px solid black;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
   text-align: center;
-  line-height: 140px;
+  line-height: 135px;
 }
+
 #div1 {
   background-color: red;
   top: 20px;
   left: 20px;
 }
+
 #div2 {
   background-color: green;
-  top: 200px;
+  top: 190px;
   left: 20px;
 }
+
 #div3 {
   background-color: blue;
-  top: 380px;
+  top: 350px;
   left: 20px;
 }
+
 #div4 {
   background-color: yellow;
-  top: 420px;
-  left: 580px;
+  top: 380px;
+  left: 520px;
 }
-``
