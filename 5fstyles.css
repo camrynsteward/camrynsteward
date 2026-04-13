@@ -7,29 +7,29 @@
   font-weight: bold;
   text-align: center;
   line-height: 165px;
-  font-family: "Times New Roman", serif;
 }
-
 #div1 {
   background: red;
-  top: 0px;
-  left: 40px;
+  top: 0;
+  left: 30px;
 }
 
 #div2 {
   background: green;
   top: 200px;
-  left: 40px;
+  left: 30px;
 }
 
 #div3 {
   background: blue;
   top: 400px;
-  left: 40px;
+  left: 30px;
 }
 
 #div4 {
   background: yellow;
-  top: 550px;     
-  left: 650px; 
+  top: 600px;
+  left: 90px;
+  height: 220px;
+  line-height: 220px;
 }
