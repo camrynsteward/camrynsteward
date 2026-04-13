@@ -9,14 +9,6 @@ body {
     text-align: center;
     padding-top: 6px;
 }
-#div1 {
-    background-color: red;
-    width: 300px;
-    height: 100px;
-    top: 20px;
-    left: 20px;
-    z-index: 4;
-}
 #div2 {
     background-color: green;
     width: 330px;
@@ -32,6 +24,14 @@ body {
     top: 80px;
     left: 100px;
     z-index: 2;
+}
+#div1 {
+    background-color: red;
+    width: 300px;
+    height: 100px;
+    top: 20px;
+    left: 20px;
+    z-index: 4;
 }
 #div4 {
     background-color: yellow;
