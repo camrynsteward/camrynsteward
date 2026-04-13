@@ -21,23 +21,23 @@ body {
     background-color: green;
     width: 300px;
     height: 110px;
-    top: 45px;
-    left: 45px;
+    top: 50px;
+    left: 50px; 
     z-index: 2;
 }
 #div3 {
     background-color: blue;
     width: 340px;
     height: 130px;
-    top: 70px;
-    left: 70px;
+    top: 80px;
+    left: 80px;
     z-index: 3;
 }
 #div4 {
     background-color: yellow;
     width: 420px;
     height: 180px;
-    top: 95px;
-    left: 95px;
+    top: 110px; 
+    left: 110px; 
     z-index: 4;
 }
