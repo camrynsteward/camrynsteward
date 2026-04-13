@@ -11,33 +11,36 @@ body {
 }
 #div1 {
     background-color: red;
-    width: 280px;
-    height: 90px;
+    width: 300px;
+    height: 100px;
     top: 20px;
     left: 10px;
     z-index: 1;
 }
-#div2 {
-    background-color: green;
-    width: 320px;
-    height: 110px;
-    top: 45px;
-    left: 50px;
+#div4 {
+    background-color: yellow;
+    width: 340px;
+    height: 120px;
+    top: 90px;
+    left: 170px;
     z-index: 2;
 }
 #div3 {
     background-color: blue;
     width: 300px;
-    height: 105px;
-    top: 75px;
-    left: 90px;
+    height: 110px;
+    top: 70px;
+    left: 120px;
     z-index: 3;
 }
-#div4 {
-    background-color: yellow;
-    width: 360px;
-    height: 130px;
-    top: 100px;
-    left: 125px;
+#div2 {
+    background-color: green;
+    width: 330px;
+    height: 120px;
+    top: 45px;
+    left: 60px;
     z-index: 4;
 }
+
+
+
