@@ -5,21 +5,22 @@ div {
     color: black;
     font-weight: bold;
     text-align: center;
+    line-height: 100px;
 }
 
 #d1 {
     background-color: red;
-    margin: 0px;
+    margin: 0;
 }
 
 #d2 {
     background-color: green;
-    margin: 5px 0px 15px 0px;
+    margin: 5px 0 15px 0;
 }
 
 #d3 {
     background-color: blue;
-    margin: 0px 0px 0px 75px;
+    margin-left: 75px;
 }
 
 #d4 {
