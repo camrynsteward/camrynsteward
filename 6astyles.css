@@ -1,0 +1,35 @@
+ul {
+1px solid #000000;  background-color: purple;
+  width: 95%;
+  margin: auto;
+  list-style-type: none;
+  padding: 10px;
+}
+
+ul li::before {
+  content: "\2022";
+  color: gold;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+li {
+  background-color: #cccccc;
+  border: 1px solid #ffff00;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+h1 {
+  text-align: center;
+  width: 50%;
+  color: white;
+  background-color: black;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
