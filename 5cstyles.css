@@ -5,26 +5,26 @@
     color: black;
     font-weight: bold;
     text-align: center;
-    padding-top: 8px;       
-    box-sizing: border-box; 
+    padding-top: 6px; 
+    box-sizing: border-box;
 }
 
 #div1 {
     background-color: red;
-    margin: 20px 0 20px 20px;
+    margin: 20px 0 10px 20px;
 }
 
 #div2 {
     background-color: green;
-    margin: 0 0 20px 35px;
+    margin: 0 0 10px 30px;
 }
 
 #div3 {
     background-color: blue;
-    margin: 0 0 20px 75px;
+    margin: 0 0 5px 60px;
 }
 
 #div4 {
     background-color: yellow;
-    margin: 10px 0 0 150px;
+    margin: 0 0 0 120px;
 }
