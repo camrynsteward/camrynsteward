@@ -1,0 +1,34 @@
+.color-block {
+  position: absolute;
+  width: 560px;
+  height: 165px;
+  border: 10px solid #000;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 165px; 
+}
+
+#div1 {
+  background: #ff0000;
+  top: 0;
+  left: 40;
+}
+
+#div2 {
+  background: #008000;
+  top: 205px;
+  left: 40;
+}
+
+#div3 {
+  background: #0000ff;
+  top: 410px;
+  left: 40;
+}
+
+#div4 {
+  background: #ffff00;
+  top: 575px;
+  left: 590px;
+}
