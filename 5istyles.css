@@ -1,0 +1,43 @@
+body {
+    position: relative;
+}
+.color-block {
+    position: absolute;
+    border: 5px solid black;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 6px;
+}
+#div1 {
+    background-color: red;
+    width: 260px;
+    height: 90px;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+#div2 {
+    background-color: green;
+    width: 280px;
+    height: 100px;
+    top: 45px;
+    left: 55px;
+    z-index: 2;
+}
+#div3 {
+    background-color: blue;
+    width: 300px;
+    height: 110px;
+    top: 70px;
+    left: 90px;
+    z-index: 3;
+}
+#div4 {
+    background-color: yellow;
+    width: 340px;
+    height: 130px;
+    top: 95px;
+    left: 125px;
+    z-index: 4;
+}
