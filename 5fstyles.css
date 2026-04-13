@@ -3,26 +3,34 @@
     font-weight: bold;
     font-family: Arial, sans-serif;
     text-align: center;
-    padding-top: 5px;
-    margin-bottom: 20px;
+    padding-top: 8px;
+    margin-bottom: 30px;
 }
+
+/* DIV #1 (red, medium size) */
 #div1 {
     background-color: red;
     width: 300px;
     height: 120px;
 }
+
+/* DIV #2 (green, wider and taller) */
 #div2 {
     background-color: green;
-    width: 340px;
-    height: 140px;
+    width: 350px;
+    height: 150px;
 }
+
+/* DIV #3 (blue, same width as div2, shorter) */
 #div3 {
     background-color: blue;
-    width: 340px;
+    width: 350px;
     height: 110px;
 }
+
+/* DIV #4 (yellow, largest block) */
 #div4 {
     background-color: yellow;
     width: 380px;
-    height: 180px;
+    height: 200px;
 }
