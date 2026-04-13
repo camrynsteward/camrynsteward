@@ -1,0 +1,35 @@
+.color-block {
+  position: absolute;
+  width: 560px;
+  height: 165px;
+  border: 10px solid black;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 165px;
+  font-family: "Times New Roman", serif;
+}
+
+#div1 {
+  background: red;
+  top: 30px;
+  left: 30px;
+}
+
+#div2 {
+  background: green;
+  top: 235px;
+  left: 60px;
+}
+
+#div3 {
+  background: blue;
+  top: 440px;
+  left: 60px;
+}
+
+#div4 {
+  background: yellow;
+  top: 605px;
+  left: 630px;
+}
