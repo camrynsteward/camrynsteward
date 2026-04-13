@@ -5,7 +5,8 @@
     font-weight: bold;
     text-align: center;
     padding-top: 6px;
-    margin-bottom: 0px;
+    margin: 0;
+    display: block;
 }
 #div1 {
     background-color: red;
