@@ -26,6 +26,20 @@ li {
   border-bottom: 1px solid yellow;
   padding: 10px 10px 10px 40px;
 }
+li {
+  position: relative;
+  background-color: #cccccc;
+  border-top: 1px solid yellow;
+  border-bottom: 1px solid yellow;
+  padding: 10px 10px 10px 40px;
+}
+li {
+  position: relative;
+  background-color: #cccccc;
+  border-top: 1px solid yellow;
+  border-bottom: 1px solid yellow;
+  padding: 10px 10px 10px 40px;
+}
 li::before {
   content: "•";
   color: gold;
