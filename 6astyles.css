@@ -1,51 +1,57 @@
 body {
   margin: 0;
-  padding: 40px;
+  padding: 30px;
+  background: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: white;
 }
 h1 {
-  width: 70%;
-  margin: 0 auto 30px auto;
-  background: black;
-  color: white;
+  width: 68%;
+  margin: 0 auto 25px auto;
+  background: #000000;
+  color: #ffffff;
   text-align: center;
-  padding: 10px 0;
+  padding: 6px 0;
   border-radius: 6px;
+  font-size: 26px;
+  font-weight: bold;
 }
-.custom-list {
-  list-style: none;
-  padding: 0;
-  margin: 0 auto;
-  width: 95%;
-  background-color: #eeeeee;
-  border: 2px solid yellow;
+ul {
   position: relative;
+  width: 96%;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  background: #e5e5e5;
+  border: 1px solid #ffff00;
 }
-.custom-list::before {
+ul::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 45px;
+  width: 40px;
   height: 100%;
-  background-color: purple;
+  background: #5b006b;
 }
-.custom-list li {
-  padding: 6px 10px 6px 60px;
-  border-bottom: 2px solid yellow;
+li {
   position: relative;
+  padding: 4px 10px 4px 55px;
   font-size: 14px;
+  color: #000000;
+  border-bottom: 1px solid #ffff00;
 }
-.custom-list li:last-child {
+li:last-child {
   border-bottom: none;
 }
-.custom-list li::before {
-  content: "•";
-  color: yellow;
+li::before {
+  content: "";
   position: absolute;
-  left: 20px;
-  font-size: 20px;
-  line-height: 1;
+  left: 18px;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  background: #ffff00;
+  border-radius: 50%;
+  transform: translateY(-50%);
 }
 
