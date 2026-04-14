@@ -1,35 +1,51 @@
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
 h1 {
-  text-align: center;
-  width: 50%;
+  width: 70%;
+  margin: 0 auto 30px auto;
+  background: black;
   color: white;
-  background-color: black;
-  margin: auto;
-  margin-bottom: 20px;
-  border-radius: 5px;
-  padding: 10px;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 6px;
 }
-li:before {
-  content: "•";
-  color: gold;
-  font-weight: bold;
-  position: absolute;
-  left: 15px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-ul {
-  background-color: purple;
-  border: 1px solid black;
-  width: 95%;
-  margin: auto;
-  padding: 0;
+.custom-list {
   list-style: none;
-}
-li {
+  padding: 0;
+  margin: 0 auto;
+  width: 95%;
+  background-color: #eeeeee;
+  border: 2px solid yellow;
   position: relative;
-  background-color: #cccccc;
-  border-top: 1px solid yellow;
-  border-bottom: 1px solid yellow;
-  padding: 10px 10px 10px 40px;
+}
+.custom-list::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45px;
+  height: 100%;
+  background-color: purple;
+}
+.custom-list li {
+  padding: 6px 10px 6px 60px;
+  border-bottom: 2px solid yellow;
+  position: relative;
+  font-size: 14px;
+}
+.custom-list li:last-child {
+  border-bottom: none;
+}
+.custom-list li::before {
+  content: "•";
+  color: yellow;
+  position: absolute;
+  left: 20px;
+  font-size: 20px;
+  line-height: 1;
 }
 
