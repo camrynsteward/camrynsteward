@@ -17,7 +17,7 @@ h1 {
 }
 
 ul {
-  list-style: none;
+  list-style: none;        
   margin: 0 auto;
   padding: 0;
   width: 96%;
@@ -38,8 +38,17 @@ ul::before {
 
 li {
   position: relative;
-  padding: 10px 10px 10px 55px; 
+  padding: 10px 10px 10px 70px;
   border-bottom: 1px solid yellow;
+}
+
+li::before {
+  content: "•";
+  position: absolute;
+  left: 50px;
+  color: yellow;
+  font-size: 22px;
+  line-height: 1;
 }
 
 li:last-child {
