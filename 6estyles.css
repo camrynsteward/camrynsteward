@@ -2,7 +2,7 @@ body {
   font: 12pt Verdana, Arial, Georgia, sans-serif;
 }
 
-/* Navigation */
+/* Navigation container */
 #nav {
   width: 170px;
   float: left;
@@ -16,13 +16,14 @@ body {
   padding: 0;
 }
 
+/* Normal navigation items */
 #nav li {
   background-color: #5f7f8a;
   margin-bottom: 6px;
   padding: 8px 10px;
 }
 
-/* Navigation links (default) */
+/* Normal navigation links */
 #nav a {
   color: white;
   text-decoration: none;
@@ -31,17 +32,19 @@ body {
   display: block;
 }
 
-/* Active page: History */
+/* ✅ ACTIVE ITEM — History */
 #nav li:nth-child(2) {
   background-color: #7fb34d;
+  padding: 12px 10px;   /* makes the box taller */
 }
 
 #nav li:nth-child(2) a {
   color: black;
   font-size: 18pt;
+  font-weight: bold;
 }
 
-/* Content */
+/* Content area */
 #content {
   width: 550px;
   float: left;
