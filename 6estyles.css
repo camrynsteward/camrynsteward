@@ -1,0 +1,44 @@
+body {
+  font: 12pt Verdana, Arial, Georgia, sans-serif;
+}
+
+#nav {
+  width: 170px;
+  float: left;
+  margin-top: 12px;
+  margin-right: 18px;
+}
+
+#nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#nav li {
+  background-color: #5f7f8a;
+  margin-bottom: 6px;
+  padding: 10px 12px;
+}
+
+#nav li:nth-child(2) {
+  background-color: #8bbf5a;
+}
+
+#nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+
+#content {
+  width: 550px;
+  float: left;
+}
+
+#content a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: blue;
+}
