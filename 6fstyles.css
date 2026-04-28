@@ -9,7 +9,6 @@ body {
 header {
   position: relative;
   padding: 20px;
-  height: 120px;
 }
 
 header img {
@@ -23,32 +22,20 @@ nav {
   display: inline-block;
   vertical-align: top;
   margin-left: 40px;
-  margin-top: 8px; 
+  margin-top: 5px;
+}
 
-nav a {
-  color: #0000ff;        /* blue */
-  text-decoration: none; /* NO underline */
+nav a,
+nav span {
+  color: #0000ff;        
   font-size: 24px;
-  font-weight: normal;
-  margin-right: 30px;
+  font-weight: normal;  
+  text-decoration: none; 
+  margin-right: 28px;
 }
 
 main {
   margin: 40px 20px;
-}
-
-main p:first-of-type {
-  font-size: 26px;
-  margin-bottom: 20px;
-}
-
-main p:first-of-type strong {
-  font-weight: bold;
-}
-
-main p:nth-of-type(2) {
-  font-size: 22px;
-  margin-bottom: 25px;
 }
 
 ul {
@@ -57,7 +44,7 @@ ul {
 
 li {
   font-size: 22px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 li strong {
