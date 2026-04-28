@@ -53,6 +53,8 @@ ul {
   margin-top: 0;
 }
 
+<li><span class="blue">About Us:</span> We are pretty great.</li>
+
 li {
   margin-bottom: 10px;
 }
@@ -62,6 +64,7 @@ li {
   color: #0000ff;
   font-weight: bold;
 }
+
 
 
 
