@@ -2,56 +2,65 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background: white;
+  background-color: white;
   color: black;
 }
 
-/* Header */
 header {
+  position: relative;
   padding: 20px;
+  height: 120px;
 }
 
 header img {
   width: 90px;
-  vertical-align: middle;
-}
-
-.nav {
+  height: auto;
   display: inline-block;
-  vertical-align: middle;
-  margin-left: 30px;
+  vertical-align: top;
 }
 
-.nav span {
-  color: blue;
-  font-size: 26px;
+nav {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 40px;
+  margin-top: 8px; 
+
+nav a {
+  color: #0000ff;        /* blue */
+  text-decoration: none; /* NO underline */
+  font-size: 24px;
+  font-weight: normal;
   margin-right: 30px;
 }
 
-/* Content */
 main {
   margin: 40px 20px;
 }
 
-.headline {
-  font-size: 28px;
+main p:first-of-type {
+  font-size: 26px;
   margin-bottom: 20px;
 }
 
-.lead {
-  font-size: 24px;
+main p:first-of-type strong {
+  font-weight: bold;
+}
+
+main p:nth-of-type(2) {
+  font-size: 22px;
   margin-bottom: 25px;
 }
 
 ul {
-  margin-left: 35px;
+  margin-left: 36px;
 }
 
 li {
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 12px;
 }
 
-.blue {
-  color: blue;
+li strong {
+  color: #0000ff;
+  font-weight: bold;
 }
