@@ -1,15 +1,14 @@
 body {
-  font: 14pt Verdana, Arial, Georgia, sans-serif;
-  background-color: #f2f2f2;
-  margin: 30px;
+  font: 12pt Verdana, Arial, Georgia, sans-serif;
+  margin: 20px;
 }
 
 /* Navigation container */
 #nav {
-  width: 200px;
+  width: 170px;
   float: left;
-  margin-top: 10px;
-  margin-right: 40px;
+  margin-top: 12px;
+  margin-right: 18px;
 }
 
 #nav ul {
@@ -20,9 +19,9 @@ body {
 
 /* Normal navigation items */
 #nav li {
-  background-color: #6f8f9d;
-  margin-bottom: 4px;
-  padding: 10px 12px;
+  background-color: #5f7f8a;
+  margin-bottom: 6px;
+  padding: 8px 10px;
 }
 
 /* Normal navigation links */
@@ -30,57 +29,37 @@ body {
   color: white;
   text-decoration: none;
   font-weight: bold;
+  font-size: 12pt;
   display: block;
 }
 
 /* ACTIVE ITEM — History */
 #nav li:nth-child(2) {
-  background-color: #73a942;
-  padding: 14px 12px;
+  background-color: #7fb34d;
+  padding: 12px 10px;
 }
 
 #nav li:nth-child(2) a {
   color: black;
-  font-size: 22pt;
+  font-size: 18pt;
+  font-weight: bold;
 }
 
 /* Content area */
 #content {
-  width: 700px;
+  width: 550px;
   float: left;
 }
 
-/* Heading */
+/* ✅ FIX: About Us heading */
 #content h1 {
-  font-size: 42pt;
+  font-size: 44pt;   /* increased to match screenshot */
   margin-top: 0;
-}
-
-/* Paragraph */
-#content p {
-  font-size: 20pt;
-  line-height: 1.4;
-}
-
-/* List items */
-#content li {
-  font-size: 20pt;
-  margin-bottom: 15px;
 }
 
 /* Content links */
 #content a {
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: bold;
-}
-
-/* Link colors to match screenshot */
-#content li:nth-child(1) a,
-#content li:nth-child(2) a {
-  color: #6a3dad; /* purple */
-}
-
-#content li:nth-child(3) a,
-#content li:nth-child(4) a {
-  color: #1f4ed8; /* blue */
+  color: blue;
 }
