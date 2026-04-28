@@ -1,13 +1,15 @@
 body {
-  font: 12pt Verdana, Arial, Georgia, sans-serif;
+  font: 14pt Verdana, Arial, Georgia, sans-serif;
+  background-color: #f2f2f2;
+  margin: 30px;
 }
 
 /* Navigation container */
 #nav {
-  width: 170px;
+  width: 200px;
   float: left;
-  margin-top: 12px;
-  margin-right: 18px;
+  margin-top: 10px;
+  margin-right: 40px;
 }
 
 #nav ul {
@@ -18,9 +20,9 @@ body {
 
 /* Normal navigation items */
 #nav li {
-  background-color: #5f7f8a;
-  margin-bottom: 6px;
-  padding: 8px 10px;
+  background-color: #6f8f9d;
+  margin-bottom: 4px;
+  padding: 10px 12px;
 }
 
 /* Normal navigation links */
@@ -28,31 +30,57 @@ body {
   color: white;
   text-decoration: none;
   font-weight: bold;
-  font-size: 12pt;
   display: block;
 }
 
-/* ✅ ACTIVE ITEM — History */
+/* ACTIVE ITEM — History */
 #nav li:nth-child(2) {
-  background-color: #7fb34d;
-  padding: 12px 10px;   /* makes the box taller */
+  background-color: #73a942;
+  padding: 14px 12px;
 }
 
 #nav li:nth-child(2) a {
   color: black;
-  font-size: 18pt;
-  font-weight: bold;
+  font-size: 22pt;
 }
 
 /* Content area */
 #content {
-  width: 550px;
+  width: 700px;
   float: left;
+}
+
+/* Heading */
+#content h1 {
+  font-size: 42pt;
+  margin-top: 0;
+}
+
+/* Paragraph */
+#content p {
+  font-size: 20pt;
+  line-height: 1.4;
+}
+
+/* List items */
+#content li {
+  font-size: 20pt;
+  margin-bottom: 15px;
 }
 
 /* Content links */
 #content a {
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: bold;
-  color: blue;
+}
+
+/* Link colors to match screenshot */
+#content li:nth-child(1) a,
+#content li:nth-child(2) a {
+  color: #6a3dad; /* purple */
+}
+
+#content li:nth-child(3) a,
+#content li:nth-child(4) a {
+  color: #1f4ed8; /* blue */
 }
