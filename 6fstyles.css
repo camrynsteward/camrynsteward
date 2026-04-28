@@ -1,69 +1,67 @@
 html, body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #ffffff;
+  background: #ffffff;
   color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
   position: relative;
-  padding: 0;
   height: 120px;
 }
 
-/* Logo */
 header img {
   position: absolute;
-  top: 20px;
+  top: 22px;
   left: 20px;
-  width: 80px;
+  width: 90px;
   height: auto;
-}
 
-/* Navigation */
 .nav {
   position: absolute;
-  top: 22px;
-  left: 120px;
+  top: 30px;
+  left: 140px;
   white-space: nowrap;
 }
 
 .nav span {
   color: #0000ff;
-  font-size: 22px;
+  font-size: 24px;
+  margin-right: 26px;
   font-weight: normal;
-  margin-right: 28px;
-  cursor: default;
 }
-
 main {
-  margin-top: 40px;
   margin-left: 40px;
-  margin-right: 40px;
+  margin-top: 30px;
+  max-width: 900px;
 }
 
 .headline {
-  font-size: 26px;
+  font-size: 28px;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
 .lead {
-  font-size: 20px;
-  margin-bottom: 24px;
+  font-size: 22px;
+  margin-bottom: 26px;
 }
 
+/* ===== List Styling ===== */
 ul {
-  font-size: 20px;
-  padding-left: 30px;
+  font-size: 22px;
+  padding-left: 32px;
   margin-top: 0;
 }
 
 li {
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
+/* Blue emphasized text 
 .blue {
   color: #0000ff;
   font-weight: bold;
 }
+
