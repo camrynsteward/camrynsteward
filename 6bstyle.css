@@ -1,0 +1,17 @@
+body {
+    font: 12pt Verdana, Arial, Georgia, sans-serif;
+}
+
+#nav {
+    width: 150px;
+    float: left;
+}
+
+#content {
+    width: 550px;
+    float: left;
+}
+
+#content h1 {
+    margin-top: 0;
+}
