@@ -1,12 +1,7 @@
-/* Reset */
-* {
+/* ===== Base ===== */
+body {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-}
-
-/* Page */
-body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #ffffff;
   color: #000000;
@@ -15,34 +10,33 @@ body {
 /* ===== Header ===== */
 header {
   position: relative;
-  height: 130px;
   padding: 20px;
 }
 
 /* Logo */
 header img {
-  position: absolute;
-  top: 20px;
-  left: 20px;
   width: 90px;
+  height: auto;
 }
 
 /* Navigation */
 nav {
-  margin-left: 140px;
-  margin-top: 20px;
+  position: absolute;
+  top: 25px;
+  left: 140px;
 }
 
 nav a {
   font-size: 26px;
   color: #0000ff;
-  text-decoration: underline;
+  text-decoration: none;   /* ✅ NO UNDERLINE */
   margin-right: 30px;
+  font-weight: normal;
 }
 
 /* ===== Main Content ===== */
 main {
-  padding: 40px 20px;
+  margin: 40px 20px;
 }
 
 /* Headline */
@@ -51,19 +45,19 @@ main p:first-of-type {
   margin-bottom: 22px;
 }
 
-main p strong {
+main p:first-of-type strong {
   font-weight: bold;
 }
 
 /* Subheading */
-.lead {
+main p:nth-of-type(2) {
   font-size: 24px;
   margin-bottom: 28px;
 }
 
-/* List */
+/* ===== List ===== */
 ul {
-  margin-left: 36px;
+  margin-left: 35px;
 }
 
 li {
@@ -71,8 +65,12 @@ li {
   margin-bottom: 12px;
 }
 
-/* Blue labels */
-li strong {
+/* Blue labels in list */
+li strong,
+li span,
+li a {
   color: #0000ff;
+  font-weight: bold;
+  text-decoration: none;   /* ✅ NO UNDERLINE */
 }
 ``
