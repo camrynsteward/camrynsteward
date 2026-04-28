@@ -6,67 +6,62 @@ html, body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* ===== Header ===== */
 header {
-  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 20px;
   height: 120px;
 }
 
 header img {
-  position: absolute;
-  top: 22px;
-  left: 20px;
   width: 90px;
   height: auto;
 }
 
-/* ===== Top Navigation ===== */
 .nav {
-  position: absolute;
-  top: 30px;
-  left: 140px;
-  white-space: nowrap;
+  margin-left: 30px;
 }
 
 .nav span {
   color: #0000ff;
-  font-size: 24px;
-  margin-right: 26px;
+  font-size: 23px;
   font-weight: normal;
+  margin-right: 26px;
 }
 
-/* ===== Main Content ===== */
 main {
   margin-left: 40px;
-  margin-top: 30px;
+  margin-top: 20px;
   max-width: 900px;
 }
 
 .headline {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
 }
 
 .lead {
   font-size: 22px;
-  margin-bottom: 26px;
+  font-weight: normal;
+  margin-bottom: 22px;
 }
 
 ul {
   font-size: 22px;
-  padding-left: 32px;
+  padding-left: 30px;
   margin-top: 0;
 }
 
 li {
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
-/* Blue emphasized text */
+
 .blue {
   color: #0000ff;
   font-weight: bold;
 }
+
 
 
