@@ -2,6 +2,7 @@ body {
   font: 12pt Verdana, Arial, Georgia, sans-serif;
 }
 
+/* Navigation */
 #nav {
   width: 170px;
   float: left;
@@ -21,6 +22,7 @@ body {
   padding: 8px 10px;
 }
 
+/* Navigation links (default) */
 #nav a {
   color: white;
   text-decoration: none;
@@ -29,18 +31,23 @@ body {
   display: block;
 }
 
-#nav li:nth-child(2) a {
-  color: black;
-  font-size: 18pt;
-  font-weight: bold;
+/* Active page: History */
+#nav li:nth-child(2) {
   background-color: #7fb34d;
 }
 
+#nav li:nth-child(2) a {
+  color: black;
+  font-size: 18pt;
+}
+
+/* Content */
 #content {
   width: 550px;
   float: left;
 }
 
+/* Content links */
 #content a {
   text-decoration: underline;
   font-weight: bold;
