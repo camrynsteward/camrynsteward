@@ -16,16 +16,35 @@ header {
   float: left;
   margin-right: 20px;
 }
-
-nav {
-  float: left;
-  margin-right: 5%;
+body {
+  font: 12pt Verdana, Arial, Georgia, sans-serif;
+  width: auto;
+  margin: 0 20px;
+  box-sizing: border-box;
 }
 
+header {
+  width: 95%;
+  background-color: antiquewhite;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#logo {
+  float: left;
+  margin-right: 15px; 
+}
+
+/* NAV */
+nav {
+  float: left;
+}
+
+/* NAV LIST */
 nav ul {
   list-style: none;
-  padding-left: 0;
   margin: 0;
+  padding: 0;
 }
 
 nav li {
@@ -34,15 +53,15 @@ nav li {
 }
 
 section {
-  width: 95%;
-  margin: 10px auto;
+  width: 95%;              
+  margin: 15px auto 0 auto;
   clear: left;
 }
 
 section p {
   background-color: antiquewhite;
   padding: 10px;
-  margin: 10px 0; /* ✅ FIXED */
+  margin: 15px 0; 
 }
 
 section a {
@@ -50,13 +69,19 @@ section a {
   font-weight: bold;
 }
 
+section ul {
+  padding-left: 0;
+  margin-top: 10px;
+}
+
 section li {
   list-style-type: none;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
 }
 
 .blue {
   color: blue;
   font-weight: bold;
 }
+
 
