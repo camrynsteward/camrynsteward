@@ -1,46 +1,23 @@
 body {
   font: 12pt Verdana, Arial, Georgia, sans-serif;
-  width: auto;
   margin: 0 20px;
   box-sizing: border-box;
 }
 
 header {
-  width: 95%;
   background-color: antiquewhite;
-  margin: 0 auto;
   overflow: hidden;
 }
 
 #logo {
   float: left;
-  margin-right: 20px;
-}
-body {
-  font: 12pt Verdana, Arial, Georgia, sans-serif;
-  width: auto;
-  margin: 0 20px;
-  box-sizing: border-box;
+  margin-right: 15px;
 }
 
-header {
-  width: 95%;
-  background-color: antiquewhite;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-#logo {
-  float: left;
-  margin-right: 15px; 
-}
-
-/* NAV */
 nav {
   float: left;
 }
 
-/* NAV LIST */
 nav ul {
   list-style: none;
   margin: 0;
@@ -53,15 +30,14 @@ nav li {
 }
 
 section {
-  width: 95%;              
-  margin: 15px auto 0 auto;
   clear: left;
+  margin-top: 20px;
 }
 
 section p {
   background-color: antiquewhite;
   padding: 10px;
-  margin: 15px 0; 
+  margin: 15px 0 15px 20px; 
 }
 
 section a {
@@ -70,18 +46,19 @@ section a {
 }
 
 section ul {
+  margin-left: 20px; 
   padding-left: 0;
-  margin-top: 10px;
 }
 
 section li {
   list-style-type: none;
-  margin-bottom: 6px;
+  margin-bottom: 5px;
 }
 
 .blue {
   color: blue;
   font-weight: bold;
 }
+
 
 
