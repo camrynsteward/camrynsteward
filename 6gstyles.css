@@ -1,56 +1,58 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
+body {
+  font: 12pt Verdana, Arial, Georgia, sans-serif;
+  width: auto;
+  margin: 0 20px;
+  box-sizing: border-box;
 }
 
 header {
-  display: flex;
-  align-items: center;
-  padding: 20px 25px;
+  width: 95%;
+  background-color: antiquewhite;
+  margin: auto;
 }
 
-header img {
-  width: 90px;
-  margin-right: 35px;
+#logo {
+  float: left;
 }
 
-.nav a {
-  color: #0000ff;
-  font-size: 22px;
-  text-decoration: none;
-  margin-right: 30px;
+nav {
+  float: left;
+  margin-right: 5%;
 }
 
-main {
-  margin: 20px;
+nav ul {
+  list-style: none;
+  display: block;
+  padding-left: 0;
 }
 
-.headline {
-  font-size: 26px;
-  margin-bottom: 20px;
-  background: #e6d8c3; 
+nav li {
+  display: block;
+}
+
+section {
+  width: 96%;
+  float: left;
+  clear: left;
+}
+
+section p {
+  background-color: antiquewhite;
   padding: 10px;
+  margin-left: 3vw;
 }
 
-.lead {
-  font-size: 22px;
-  margin-bottom: 20px;
-  background: #e6d8c3; 
-  padding: 10px;
+section a {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
-ul {
-  font-size: 22px;
-  padding-left: 40px;
-}
-
-li {
-  margin-bottom: 10px;
+section li {
+  list-style-type: none;
 }
 
 .blue {
-  color: #0000ff;
+  color: blue;
   font-weight: bold;
 }
+
