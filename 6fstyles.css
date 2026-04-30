@@ -1,0 +1,63 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+header img {
+  width: 95px;
+  margin-right: 40px;
+}
+
+.nav a {
+  color: #0000ff;
+  font-size: 26px;
+  text-decoration: none;
+  margin-right: 25px;
+}
+
+main {
+  margin-left: 30px;
+  margin-top: 20px;
+  max-width: 900px;
+}
+
+.headline {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+
+.lead {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+
+ul {
+  font-size: 26px;
+  padding-left: 45px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+
+.blue {
+  color: #0000ff;
+  font-weight: bold;
+}
+
+
+
+
+
