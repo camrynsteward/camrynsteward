@@ -10,7 +10,8 @@ header {
 
 #logo {
   float: left;
-  margin-right: 15px;
+  width: 95px;
+  margin-right: 20px;
 }
 
 nav {
@@ -36,7 +37,7 @@ section {
 section p {
   background-color: antiquewhite;
   padding: 10px;
-  margin: 15px 0 15px 20px; 
+  margin: 15px 0 15px 20px;
 }
 
 section a {
@@ -45,7 +46,7 @@ section a {
 }
 
 section ul {
-  margin-left: 20px; 
+  margin-left: 20px;
   padding-left: 0;
 }
 
@@ -58,6 +59,7 @@ section li {
   color: blue;
   font-weight: bold;
 }
+``
 
 
 
