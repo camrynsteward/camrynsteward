@@ -5,98 +5,114 @@
 
 <style>
 body {
-    background-color: #f5f2eb;
+    background: linear-gradient(to right, #3a0d2b, #7a1f3d);
+    font-family: Arial;
     margin: 0;
-    font-family: Cambria, Cochin, Georgia, Times;
 }
 
-/* Banner */
+/* MAIN CONTAINER */
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #f5f2eb;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+/* BANNER */
 .banner {
     background-color: teal;
     text-align: center;
-    padding: 40px;
-    position: absolute;
-}
-
-/* Fixed info box */
-.info {
-    background-color: #f5f2eb;
-    border: 2px solid black;
-    color: black;
-    text-align: center;
-    padding: 10px;
-    position: sticky;
-    top: 0;
-}
-
-/* Navigation */
-.nav {
-    background-color: #f1b04c;
-    text-align: center;
-    padding: 10px;
-    position: fixed
-}
-.nav a {
-    color: white;
-    margin: 15px;
-    text-decoration: underline; 
-    font-weight: bold; 
-}
-
-/* Items */
-.items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 25px;
     padding: 20px;
 }
 
+/* NAV BAR */
+.nav {
+    text-align: center;
+    padding: 10px;
+}
+
+.nav a {
+    background-color: orange;   /* ✅ orange background */
+    color: black;               /* ✅ black text */
+    padding: 10px 15px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* INFO BOX */
+.info {
+    text-align: center;
+    border: 2px solid black;
+    margin: 20px auto;
+    padding: 15px;
+    width: 80%;
+    color: #800000;
+}
+
+/* GRID (FORCES 3 PER ROW ✅) */
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+/* CARD DESIGN */
 .card {
-    background-color: white;
-    width: 200px;
+    background-color: teal;  /* ✅ teal cards */
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0px 3px 6px gray;
     text-align: center;
+    color: white;
+    box-shadow: 0px 3px 6px gray;
 }
 
 .card img {
     width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
+/* BUTTON */
 .card a {
-    background-color: #f1b04c;
-    color: white;
-    padding: 8px;
+    display: inline-block;
+    background-color: orange;
+    color: black;
+    padding: 8px 12px;
+    margin-top: 10px;
     text-decoration: none;
     border-radius: 5px;
-    display: inline-block;
-    margin-top: 10px;
+    font-weight: bold;
 }
 
-h2 {
+h1, h2 {
     text-align: center;
 }
 </style>
-
 </head>
 
 <body>
 
-<!-- Banner -->
+<div class="container">
+
+<!-- BANNER -->
 <div class="banner">
-    <img src="banner.png">
+    banner.png
 </div>
 
-<!-- Nav -->
+<!-- NAV -->
 <div class="nav">
-    <a href="ecommerce.html">HOME</a>
-    <a href="#items">ITEMS</a>
-    <a href="contact.html">CONTACT</a>
+    ecommerce.htmlHOME</a>
+    #itemsITEMS</a>
+    contact.htmlCONTACT</a>
 </div>
 
-<!-- Info -->
+<!-- INFO -->
 <div class="info">
     <h1><b>Costliest Sports Memorabilia</b></h1>
     <p>
@@ -106,185 +122,63 @@ h2 {
 </div>
 
 <h2>Featured Items</h2>
-<p style="text-align:center;">Click on each item to read about the story behind the moment.</p>
-
-<!-- Items -->
-<div class="items" id="items">
-
-<!-- 1 -->
-<div class="card">
-    <img src="Mickey Mantle.png" alt="Mickey Mantle">
-    <h3>Mickey Mantle</h3>
-    <p>1952 Card: $12.6 million</p>
-    <a href="mantle.html">View Item</a>
-</div>
-
-<!-- 1 -->
-<div class="card">
-    <img src="baberuth.png">
-    <h3>Babe Ruth Jersey</h3>
-    <p>'Called Shot' Jersey:$24.1 Million</p>
-    <a href="baberuth.html">View Item</a>
-</div>
-
-<!-- 2 -->
-<div class="card">
-    <img src="jordanbryant.png">
-    <h3>Michael Jordan/Kobe Bryant</h3>
-    <p>Orginal playing card: 12.9 Million</p>
-    <a href="jordanbryant.html">View Item</a>
-</div>
-
-<!-- 3 -->
-<div class="card">
-    <img src="Mickey Mantle.png" alt="Mickey Mantle">
-    <h3>Mickey Mantle</h3>
-    <p>1952 Card - $12.6 million</p>
-    <a href="mantle.html">View Item</a>
-</div>
-
-
-<!-- 4 -->
-<div class="card">
-    <img src="jordan.png">
-    <h3>Michael Jordan</h3>
-    <p>1998 NBA Finals Jersey: $10.1 million</p>
-    <a href="jordan.html">View Item</a>
-</div>
-
-<!-- 5 -->
-<div class="card">
-    <img src="diego.png">
-    <h3>Diego Maradona</h3>
-    <p>'Hand of God' Jersey: $9.3 million </p>
-    <a href="diego.html">View Item</a>
-</div>
-
-<!-- 6 -->
-<div class="card">
-    <img src="olympic.png">
-    <h3>Olympic Games Manifestoy</h3>
-    <p>$3.69 Million</p>
-    <a href="olympic.html">View Item</a>
-</div>
-
-</div>
-
-<div style="text-align:center; margin:20px;">
-    <a href="contact.html" style="background:#800000;color:white;padding:10px;text-decoration:none;">Contact Me For Prices</a>
-</div>
-
-</body>
-</html>
-
-<!DOCTYPE html>
-<html>
-<head>
-<title>Mickey Mantle</title>
-
-<style>
-body {
-    background-color: #f5f2eb;
-    font-family: Arial;
-}
-
-.container {
-    background-color: white;
-    width: 60%;
-    margin: 40px auto;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 0px 3px 6px gray;
-}
-
-img {
-    width: 300px;
-}
-
-figcaption {
-    font-weight: bold;
-}
-
-a {
-    background-color: #f1b04c;
-    color: black;
-    padding: 10px;
-    text-decoration: none;
-    margin: 10px;
-    display: inline-block;
-}
-</style>
-
-</head>
-
-<body>
-
-<div class="container">
-
-<h1>Mickey Mantle</h1>
-<h2>Topps 1952 Baseball Trading Card: $12.6 million</h2>
-
-<figure>
-    <img src="MickeyMantle.jpg" alt="Mickey Mantle">
-    <figcaption>1952 Card - $12.6 million</figcaption>
-</figure>
-
-<p>
-Mickey Mantle Topps 1952 Card (#311) – $12.6 Million: The famous Topps 1952 Mickey Mantle card was part of one of the first modern baseball card sets. 
-It is rare because it was released late in the season, so fewer were bought, and many unsold cards were later thrown into the ocean by the Topps company. 
-Mantle was also a very popular player, so many kids who owned his card kept it instead of trading it away. Today, less than 1% of graded cards from that set are Mantles, 
-and only a few exist in top condition, making it one of the most important cards in baseball collecting.
+<p style="text-align:center;">
+Click on each item to read about the story behind the moment.
 </p>
 
-<a href="contact.html">Contact Me For Prices</a>
-<a href="ecommerce.html">Back to Items</a>
+<!-- GRID ITEMS -->
+<div class="items" id="items">
 
+<div class="card">
+    MickeyMantle.png
+    <h3>Mickey Mantle</h3>
+    <p>$12.6 Million</p>
+    mantle.htmlView Item</a>
 </div>
 
-</body>
-</html>
+<div class="card">
+    baberuth.png
+    <h3>Babe Ruth Jersey</h3>
+    <p>$5.6 Million</p>
+    mantle.htmlView Item</a>
+</div>
 
-<!DOCTYPE html>
-<html>
-<head>
-<title>Contact</title>
+<div class="card">
+    jordanbryant.png
+    <h3>Jordan/Kobe Item</h3>
+    <p>$3.7 Million</p>
+    mantle.htmlView Item</a>
+</div>
 
-<style>
-body {
-    background-color: #f5f2eb;
-    font-family: Arial;
-    text-align: center;
-}
+<div class="card">
+    jordan.png
+    <h3>Michael Jordan</h3>
+    <p>$10.1 Million</p>
+    mantle.htmlView Item</a>
+</div>
 
-.box {
-    background-color: white;
-    width: 60%;
-    margin: 40px auto;
-    padding: 20px;
-    border-radius: 10px;
-}
-</style>
-</head>
+<div class="card">
+    diego.png
+    <h3>Diego Maradona</h3>
+    <p>$9.3 Million</p>
+    mantle.htmlView Item</a>
+</div>
 
-<body>
+<div class="card">
+    olymipic.png
+    <h3>Olympic Medal</h3>
+    <p>$8.2 Million</p>
+    mantle.htmlView Item></a>
+</div>
 
-<div class="box">
-<h1>Contact Me</h1>
-
-<p><b>Name:</b> Camryn Steward</p>
-<p><b>Email:</b> camstewarchives@gmail.com</p>
-<p><b>Phone:</b> (405) 123-4567</p>
-
-<h3>Location</h3>
-
-<iframe src="https://maps.google.com/maps?q=395%20W%20Lindsey%20Norman%20OK&t=&z=13&ie=UTF8&iwloc=&output=embed"
-width="300" height="200"></iframe>
+</div>
 
 <br><br>
 
-
+<div style="text-align:center;">
+contact.htmlContact Me For Prices</a>
 </div>
 
+</div>
 </body>
 </html>
