@@ -6,7 +6,7 @@
 <style>
 
 body {
-    background-color: #e6dccc;
+    background-color: #f5e6d3; /* ✅ LIGHTER ORANGE */
     font-family: Georgia, serif;
     margin: 0;
 }
@@ -16,8 +16,8 @@ body {
     background-color: teal;
     color: white;
     text-align: center;
-    padding: 100px;
-    font-size: 60px;
+    padding: 120px;
+    font-size: 70px; /* ✅ BIG */
     font-weight: bold;
 }
 
@@ -25,53 +25,53 @@ body {
 .nav {
     background: #66cccc;
     text-align: center;
-    padding: 25px;
-    border: 2px solid black;
+    padding: 30px;
+    border-bottom: 3px solid black;
 }
 
 .nav a {
     margin: 20px;
     font-weight: bold;
     color: black;
-    font-size: 22px;
+    font-size: 26px; /* ✅ BIGGER */
     text-decoration: none;
 }
 
 /* MAIN BOX */
 .wrapper {
-    width: 80%;
-    max-width: 1100px;
-    margin: 60px auto;
+    width: 95%;              /* ✅ MUCH WIDER */
+    max-width: 1400px;
+    margin: 80px auto;
     background: white;
-    padding: 40px;
+    padding: 60px;           /* ✅ MORE SPACE */
     border-radius: 15px;
-    box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 15px gray;
 }
 
-/* INNER TEAL AREA */
+/* INNER BOX */
 .inner-box {
     background: teal;
     color: white;
-    padding: 35px;
-    border-radius: 10px;
+    padding: 50px; /* ✅ bigger */
+    border-radius: 12px;
 }
 
-/* FLEX LAYOUT */
+/* FLEX */
 .flex {
     display: flex;
-    gap: 40px;
+    gap: 60px; /* ✅ MORE SPACE BETWEEN */
     align-items: stretch;
 }
 
-/* LEFT INFO BOX */
+/* LEFT */
 .left {
     flex: 1;
-    background: #e6dccc;
+    background: #f5e6d3;
     color: black;
-    padding: 25px;
-    border-radius: 10px;
-    font-size: 18px;   /* ✅ BIGGER TEXT */
-    line-height: 1.8;
+    padding: 35px;
+    border-radius: 12px;
+    font-size: 22px;   /* ✅ MUCH BIGGER TEXT */
+    line-height: 2;
 }
 
 /* RIGHT MAP */
@@ -79,11 +79,11 @@ body {
     flex: 1;
 }
 
-/* MAP SIZE */
+/* MAP */
 iframe {
     width: 100%;
-    height: 350px;   /* ✅ BIGGER MAP */
-    border-radius: 10px;
+    height: 500px;  /* ✅ HUGE LIKE EXAMPLE */
+    border-radius: 12px;
 }
 
 /* BUTTON */
@@ -91,18 +91,19 @@ iframe {
     display: inline-block;
     background: maroon;
     color: white;
-    padding: 12px 20px;
-    margin-top: 20px;
+    padding: 15px 25px;
+    margin-top: 25px;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 6px;
+    border-radius: 8px;
+    font-size: 18px;
 }
 
 /* FOOTER */
 footer {
     text-align: center;
-    margin: 30px;
-    font-size: 18px;
+    margin: 40px;
+    font-size: 20px; /* ✅ bigger */
 }
 
 footer a {
@@ -124,7 +125,7 @@ footer a {
 
 <!-- NAV -->
 <div class="nav">
-    ecommerce.html">Home</a>
+    <a href="ecommerce.html">Home</a>
     <a href="ecommerce.html#items">Items</a>
     <a href="contact.html">Contact</a>
 </div>
@@ -134,7 +135,7 @@ footer a {
 
 <div class="inner-box">
 
-<h2 style="font-size:28px;">Store Contact Details</h2>
+<h2 style="font-size:36px;">Store Contact Details</h2>
 
 <div class="flex">
 
