@@ -16,8 +16,8 @@ body {
     background-color: teal;
     color: white;
     text-align: center;
-    padding: 25px;
-    font-size: 24px;
+    padding: 50px;
+    font-size: 36px;
     font-weight: bold;
 }
 
@@ -26,7 +26,7 @@ body {
     background: #66cccc;
     text-align: center;
     border: 2px solid black;
-    padding: 12px;
+    padding: 20px;
 }
 
 .nav a {
@@ -39,8 +39,8 @@ body {
 
 /* MAIN WHITE BOX (BIG + CENTERED) */
 .wrapper {
-    width: 90%;
-    max-width: 1200px;
+    width: 95%;
+    max-width: 1600px;
     margin: 50px auto;
     background: white;
     padding: 35px;
@@ -56,18 +56,16 @@ body {
     border-radius: 15px;
 }
 
-/* SIDE-BY-SIDE LAYOUT */
 .flex {
     display: flex;
-    gap: 40px;
-    align-items: center;
+    gap: 50px;        /* more breathing room */
+    align-items: stretch;
 }
 
-/* LEFT TEXT */
+
 .left {
     flex: 1;
-    font-size: 18px;
-    line-height: 1.7;
+    font-size: 20px;   /* bigger text */
 }
 
 /* RIGHT MAP */
@@ -75,11 +73,9 @@ body {
     flex: 1;
 }
 
-/* MAP SIZE FIX */
 iframe {
     width: 100%;
-    height: 350px;
-    border-radius: 10px;
+    height: 450px;     /* MUCH larger map */
 }
 
 /* BUTTON STYLE */
