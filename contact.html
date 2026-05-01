@@ -6,100 +6,99 @@
 <style>
 
 body {
-    background-color: #fff4e6;
+    background-color: #e6dccc;
     font-family: Georgia, serif;
     margin: 0;
 }
 
-/* TOP BANNER */
+/* HEADER */
 .banner {
     background-color: teal;
     color: white;
     text-align: center;
-    padding: 50px;
-    font-size: 36px;
+    padding: 25px;
+    font-size: 26px;
     font-weight: bold;
 }
 
-/* NAV BAR */
+/* NAV */
 .nav {
     background: #66cccc;
     text-align: center;
+    padding: 10px;
     border: 2px solid black;
-    padding: 20px;
 }
 
 .nav a {
     margin: 25px;
-    font-size: 18px;
     text-decoration: underline;
     font-weight: bold;
     color: black;
 }
 
-/* MAIN WHITE BOX (BIG + CENTERED) */
+/* OUTER BOX (FIXED SIZE ✅) */
 .wrapper {
-    width: 95%;
-    max-width: 1600px;
-    margin: 50px auto;
+    width: 900px;             /* ✅ FIXED WIDTH */
+    margin: 60px auto;
     background: white;
-    padding: 35px;
-    border-radius: 20px;
-    box-shadow: 0 0 15px gray;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px gray;
 }
 
-/* INNER TEAL BOX */
+/* INNER BOX */
 .inner-box {
     background: teal;
+    padding: 25px;
+    border-radius: 10px;
     color: white;
-    padding: 30px;
-    border-radius: 15px;
 }
 
+/* LAYOUT */
 .flex {
     display: flex;
-    gap: 50px;        /* more breathing room */
-    align-items: stretch;
+    gap: 30px;
 }
 
-
+/* LEFT SIDE */
 .left {
-    flex: 1;
-    font-size: 20px;   /* bigger text */
+    width: 400px;            /* ✅ FIXED */
+    font-size: 16px;
+    line-height: 1.5;
 }
 
-/* RIGHT MAP */
+/* RIGHT SIDE */
 .right {
-    flex: 1;
+    width: 400px;            /* ✅ FIXED */
 }
 
+/* MAP (LOCKED SIZE ✅) */
 iframe {
-    width: 100%;
-    height: 450px;     /* MUCH larger map */
+    width: 400px;
+    height: 220px;
+    border-radius: 5px;
 }
 
-/* BUTTON STYLE */
+/* BUTTON */
 .btn {
     display: inline-block;
-    margin-top: 20px;
     background: white;
     color: teal;
-    padding: 8px 15px;
+    padding: 5px 10px;
+    margin-top: 10px;
     text-decoration: none;
     font-weight: bold;
-    border-radius: 6px;
 }
 
 /* FOOTER */
 footer {
     text-align: center;
-    margin-top: 30px;
-    font-size: 16px;
+    margin-top: 20px;
+    font-size: 14px;
 }
 
 footer a {
     color: teal;
-    text-decoration: none;
 }
 
 </style>
@@ -107,27 +106,24 @@ footer a {
 
 <body id="top">
 
-<!-- HEADER -->
 <div class="banner">
     CONTACT INFORMATION
 </div>
 
 <div class="nav">
-    <a href="ecommerce.html">HOME</a>
-    <a href="ecommerce.html#items">ITEMS</a>
-    <a href="contact.html">CONTACT</a>
+    ecommerce.html>
+    ecommerce.html#itemsITEMS</a>
+    contact.htmlCONTACT</a>
 </div>
 
-<!-- MAIN CONTENT -->
 <div class="wrapper">
 
 <div class="inner-box">
 
-<h2>Seller Details</h2>
+<h3>Seller Details</h3>
 
 <div class="flex">
 
-<!-- LEFT SIDE -->
 <div class="left">
 <p><b>Name:</b> Camryn Steward</p>
 <p><b>Email:</b> camstewarchives@gmail.com</p>
@@ -136,12 +132,11 @@ footer a {
 
 <p>Use the map for directions to our store location.</p>
 
-<a href="ecommerce.html" class="btn">Back to Home</a>
+ecommerce.htmlBack to Home</a>
 </div>
 
-<!-- RIGHT SIDE -->
 <div class="right">
-<iframe src="https://www.google.com/maps?q=395+W+Lindsey+Norman+OK&output=embed"></iframe>
+https://www.google.com/maps?q=395+W+Lindsey+Norman+OK&output=embed
 </div>
 
 </div>
@@ -149,11 +144,11 @@ footer a {
 </div>
 </div>
 
-<!-- FOOTER -->
 <footer>
 <p>© 2026 Camryn Steward</p>
-<a href="#top">Back to Top</a>
+#topBack to Top</a>
 </footer>
 
 </body>
 </html>
+``
