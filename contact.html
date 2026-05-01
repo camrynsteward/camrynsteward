@@ -6,90 +6,99 @@
 <style>
 
 body {
-    background-color: #fff4e6; /* light orange */
+    background-color: #fff4e6;
     font-family: Georgia, serif;
     margin: 0;
 }
 
-/* BANNER */
+/* TOP BANNER */
 .banner {
     background-color: teal;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 25px;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-/* NAV */
+/* NAV BAR */
 .nav {
     background: #66cccc;
     text-align: center;
     border: 2px solid black;
-    padding: 10px;
+    padding: 12px;
 }
 
 .nav a {
-    margin: 20px;
+    margin: 25px;
+    font-size: 18px;
     text-decoration: underline;
     font-weight: bold;
     color: black;
 }
 
-/* OUTER WHITE BOX */
+/* MAIN WHITE BOX (BIG + CENTERED) */
 .wrapper {
-    width: 70%;
-    margin: 40px auto;
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
     background: white;
-    padding: 30px;
+    padding: 35px;
     border-radius: 20px;
-    box-shadow: 0 0 10px gray;
+    box-shadow: 0 0 15px gray;
 }
 
 /* INNER TEAL BOX */
 .inner-box {
     background: teal;
     color: white;
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
 }
 
-/* SPLIT LAYOUT */
+/* SIDE-BY-SIDE LAYOUT */
 .flex {
     display: flex;
-    gap: 20px;
-    margin-top: 15px;
+    gap: 40px;
+    align-items: center;
 }
 
+/* LEFT TEXT */
 .left {
     flex: 1;
+    font-size: 18px;
+    line-height: 1.7;
 }
 
+/* RIGHT MAP */
 .right {
     flex: 1;
 }
 
-/* MAP */
+/* MAP SIZE FIX */
 iframe {
     width: 100%;
-    height: 250px;
-    border: none;
+    height: 350px;
     border-radius: 10px;
 }
 
-/* LINKS */
-.link-btn {
+/* BUTTON STYLE */
+.btn {
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 20px;
     background: white;
     color: teal;
-    padding: 6px 12px;
+    padding: 8px 15px;
     text-decoration: none;
     font-weight: bold;
+    border-radius: 6px;
 }
 
 /* FOOTER */
 footer {
     text-align: center;
     margin-top: 30px;
+    font-size: 16px;
 }
 
 footer a {
@@ -102,19 +111,18 @@ footer a {
 
 <body id="top">
 
-<!-- BANNER -->
+<!-- HEADER -->
 <div class="banner">
-    <h1>CONTACT INFORMATION</h1>
+    CONTACT INFORMATION
 </div>
 
-<!-- NAV -->
 <div class="nav">
     <a href="ecommerce.html">HOME</a>
     <a href="ecommerce.html#items">ITEMS</a>
     <a href="contact.html">CONTACT</a>
 </div>
 
-<!-- MAIN BOX -->
+<!-- MAIN CONTENT -->
 <div class="wrapper">
 
 <div class="inner-box">
@@ -132,20 +140,17 @@ footer a {
 
 <p>Use the map for directions to our store location.</p>
 
-<a class="link-btn" href="ecommerce.html">Back to Home</a>
+<a href="ecommerce.html" class="btn">Back to Home</a>
 </div>
 
 <!-- RIGHT SIDE -->
 <div class="right">
-<iframe 
-src="https://www.google.com/maps?q=395+W+Lindsey+Norman+OK&output=embed">
-</iframe>
+<iframe src="https://www.google.com/maps?q=395+W+Lindsey+Norman+OK&output=embed"></iframe>
 </div>
 
 </div>
 
 </div>
-
 </div>
 
 <!-- FOOTER -->
@@ -156,4 +161,3 @@ src="https://www.google.com/maps?q=395+W+Lindsey+Norman+OK&output=embed">
 
 </body>
 </html>
-
