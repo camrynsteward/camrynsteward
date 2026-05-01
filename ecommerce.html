@@ -4,14 +4,32 @@
 <title>Costliest Sports Memorabilia</title>
 
 <style>
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
-    background: #ffcc99;
-    font-family: Arial;
+    background: #eaf6f6; /* baby blue/white */
+    font-family: Georgia, serif;
 }
+
+/* BANNER (smaller) */
+.banner {
+    background: teal;
+    text-align: center;
+    color: white;
+    padding: 15px;
+}
+
+.banner img {
+    width: 100%;
+    max-height: 150px; /* smaller than before */
+    object-fit: cover;
+}
+
+/* NAV (scrolls with page now) */
 .nav {
-    position: sticky;
-    background: #66cccc;
+    background: #b2f0f0;
     text-align: center;
     border: 2px solid black;
     padding: 10px;
@@ -22,26 +40,36 @@ body {
     font-weight: bold;
     text-decoration: underline;
     color: black;
+    font-size: 18px;
 }
-/* BANNER */
-.banner {
-    top: 0;
-    background: teal;
-    text-align: center;
+
+/* STEWARD STORIES BOX */
+.story-box {
+    width: 85%;
+    margin: 40px auto;
+    background: black;
     color: white;
-    padding: 20px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
 }
 
-.banner img {
-    width: 100%;
-    max-height: 200px;
-    object-fit: cover;
+.story-box h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
+.story-box p {
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.6;
+    font-size: 18px;
+}
 
+/* ITEMS TITLE */
 .title {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 80px;
 }
 
 /* GRID */
@@ -50,7 +78,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     width: 90%;
-    margin: 30px auto;
+    margin: 40px auto;
 }
 
 .card {
@@ -88,23 +116,42 @@ footer {
 
 <body id="top">
 
+<!-- BANNER -->
 <div class="banner">
     <img src="banner.png">
-    <h1>Costliest Sports Memorabilia</h1>
-    <p>Explore one-of-a-kind sports items from your favorite superstars. Click on any item to view the full-size product and price details.</p>
+    <h1>Million-Dollar Moments</h1>
+    <p>Costliest Sports Memorabilia</p>
 </div>
 
+<!-- NAV -->
 <div class="nav">
-    <a href="ecommerce.html">HOME</a>
+    <a href="#top">HOME</a>
     <a href="#items">ITEMS</a>
     <a href="contact.html">CONTACT</a>
 </div>
 
+<!-- STEWARD STORIES BOX -->
+<div class="story-box">
+    <h2>Steward Stories</h2>
+    <p>
+    Welcome to Steward Stories, where every item has a past and every past has a pulse. 
+    I created this space with one belief: sports memorabilia is not just stuff, it is storytelling. 
+    From century-old playing cards that have outlived generations to NBA Finals jerseys that 
+    witnessed greatness firsthand, each piece holds a moment that cannot be recreated. 
+    I have always been drawn to the idea that behind every collectible is a human story of triumph, 
+    heartbreak, history, and legacy. Steward Stories is my way of preserving those moments, 
+    connecting fans to the soul of the game, and proving the real value is not just in the item, 
+    but in everything it has been through.
+    </p>
+</div>
+
+<!-- ITEMS TITLE -->
 <div class="title" id="items">
     <h2>Featured Items</h2>
     <p>Click on each item to read about the story behind the moment.</p>
 </div>
 
+<!-- ITEM GRID -->
 <div class="container">
 
 <div class="card">
@@ -151,10 +198,12 @@ footer {
 
 </div>
 
+<!-- CONTACT LINK -->
 <p style="text-align:center;">
 <a href="contact.html">CONTACT ME FOR PRICES</a>
 </p>
 
+<!-- FOOTER -->
 <footer>
 <p>© 2026 Camryn Steward</p>
 <a href="#top" style="color: teal;">Back to Top</a>
