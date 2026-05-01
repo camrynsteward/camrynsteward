@@ -6,7 +6,7 @@
 <style>
 
 body {
-    background-color: #e6dccc;
+    background-color: #e6dccc; /* your light orange */
     font-family: Georgia, serif;
     margin: 0;
 }
@@ -16,8 +16,8 @@ body {
     background-color: teal;
     color: white;
     text-align: center;
-    padding: 25px;
-    font-size: 26px;
+    padding: 100px;
+    font-size: 90px;
     font-weight: bold;
 }
 
@@ -25,56 +25,59 @@ body {
 .nav {
     background: #66cccc;
     text-align: center;
-    padding: 10px;
+    padding: 40px;
     border: 2px solid black;
 }
 
 .nav a {
-    margin: 25px;
+    margin: 30px;
     text-decoration: underline;
     font-weight: bold;
     color: black;
+    font-size: 30px;
 }
 
-/* OUTER BOX (FIXED SIZE ✅) */
+/* OUTER WHITE BOX */
 .wrapper {
-    width: 900px;             /* ✅ FIXED WIDTH */
-    margin: 60px auto;
+    width: 250%;
+    max-width: 5000px;   /* ✅ Matches your example exactly */
+    margin: 50px auto;
     background: white;
-    padding: 20px;
+    padding: 50px;
     border-radius: 15px;
     box-shadow: 0 0 10px gray;
 }
 
-/* INNER BOX */
+/* INNER TEAL BOX */
 .inner-box {
     background: teal;
+    color: white;
     padding: 25px;
     border-radius: 10px;
-    color: white;
 }
 
 /* LAYOUT */
 .flex {
     display: flex;
     gap: 30px;
+    align-items: center;
 }
 
 /* LEFT SIDE */
 .left {
-    width: 400px;            /* ✅ FIXED */
+    flex: 1;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 /* RIGHT SIDE */
 .right {
-    width: 400px;            /* ✅ FIXED */
+    flex: 1;
 }
 
-/* MAP (LOCKED SIZE ✅) */
+/* MAP SIZE (MATCHES EXAMPLE BOX) */
 iframe {
-    width: 400px;
+    width: 100%;
     height: 220px;
     border-radius: 5px;
 }
@@ -85,37 +88,43 @@ iframe {
     background: white;
     color: teal;
     padding: 5px 10px;
-    margin-top: 10px;
+    margin-top: 15px;
     text-decoration: none;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 /* FOOTER */
 footer {
     text-align: center;
-    margin-top: 20px;
     font-size: 14px;
+    margin-top: 20px;
 }
 
 footer a {
     color: teal;
+    text-decoration: none;
 }
 
 </style>
+
 </head>
 
 <body id="top">
 
+<!-- HEADER -->
 <div class="banner">
     CONTACT INFORMATION
 </div>
 
+<!-- NAV -->
 <div class="nav">
     ecommerce.html>
-    ecommerce.html#itemsITEMS</a>
-    contact.htmlCONTACT</a>
+    ecommerce.html#items>ITEMS</a>
+    contact.html
 </div>
 
+<!-- MAIN -->
 <div class="wrapper">
 
 <div class="inner-box">
@@ -124,6 +133,7 @@ footer a {
 
 <div class="flex">
 
+<!-- LEFT -->
 <div class="left">
 <p><b>Name:</b> Camryn Steward</p>
 <p><b>Email:</b> camstewarchives@gmail.com</p>
@@ -135,6 +145,7 @@ footer a {
 ecommerce.htmlBack to Home</a>
 </div>
 
+<!-- RIGHT -->
 <div class="right">
 https://www.google.com/maps?q=395+W+Lindsey+Norman+OK&output=embed
 </div>
@@ -144,6 +155,7 @@ https://www.google.com/maps?q=395+W+Lindsey+Norman+OK&output=embed
 </div>
 </div>
 
+<!-- FOOTER -->
 <footer>
 <p>© 2026 Camryn Steward</p>
 #topBack to Top</a>
@@ -151,4 +163,3 @@ https://www.google.com/maps?q=395+W+Lindsey+Norman+OK&output=embed
 
 </body>
 </html>
-``
